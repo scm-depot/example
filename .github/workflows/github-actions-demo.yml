@@ -5,7 +5,7 @@ on:
 
 jobs:
   Explore-GitHub-Actions:
-    runs-on: self-hosted
+    runs-on: example
     # runs-on: example
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
