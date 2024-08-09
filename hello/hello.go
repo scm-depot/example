@@ -37,7 +37,7 @@ func usage() {
 }
 
 var (
-	greeting    = flag.String("g", "Hello", "Greet WITH `greeting`")
+	greeting    = flag.String("g", "Hello", "Greet with `greeting`")
 	reverseFlag = flag.Bool("r", false, "Greet in reverse")
 )
 
